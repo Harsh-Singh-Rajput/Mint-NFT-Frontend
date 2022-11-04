@@ -89,6 +89,37 @@
   font-weight: bold;
 }
 
+.toggle{
+  display: none;
+}
+
+#status{
+  border: 1px solid gray;
+  width: 50%;
+  position: relative; 
+  left: 25%;
+}
+
+#status>p, h4{
+  color: white;
+
+}
+
+#text{
+  display: inline-block;
+  width: 10px;
+}
+
+#ViewOpensea{
+  margin-left: 1em;
+  display: none;
+}
+
+h4{
+  margin-bottom: 0px;
+  margin-top: .5em;
+}
+
 /* KeyFrames */
 @-webkit-keyframes gradient-animation {
   0% {
